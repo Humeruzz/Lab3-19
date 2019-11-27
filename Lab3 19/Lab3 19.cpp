@@ -6,6 +6,7 @@ int main()
 {
 	char str[100];
 	bool tfstate = false;
+	cout << "Enter email adress: " << endl;
 	cin.getline(str,100);
 	for (int i = 0; i < 100; i++) {
 		if (tfstate) {
